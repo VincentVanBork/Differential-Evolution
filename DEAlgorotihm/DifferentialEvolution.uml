@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>DifferentialEvolution</OriginalElement>
+  <nodes>
+    <node x="426.25" y="365.0">DifferentialEvolution.Diagram</node>
+    <node x="457.2675" y="0.0">DifferentialEvolution.Functions</node>
+    <node x="389.5" y="598.0">DifferentialEvolution.Client</node>
+    <node x="109.38416666666672" y="653.0">DifferentialEvolution.ClientHandler</node>
+    <node x="81.25" y="376.0">DifferentialEvolution.Differential</node>
+    <node x="0.0" y="77.0">DifferentialEvolution.StandardDeviation</node>
+    <node x="85.38416666666672" y="809.0">DifferentialEvolution.Server</node>
+    <node x="85.38416666666672" y="932.0">DifferentialEvolution.Main</node>
+    <node x="222.25000000000003" y="255.0">DifferentialEvolution.Values</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="DifferentialEvolution.ClientHandler" target="DifferentialEvolution.Differential">
+      <point x="-40.33333333333334" y="-25.5" />
+      <point x="129.55083333333337" y="578.0" />
+      <point x="111.5" y="578.0" />
+      <point x="-30.25" y="25.5" />
+    </edge>
+    <edge source="DifferentialEvolution.Differential" target="DifferentialEvolution.StandardDeviation">
+      <point x="-30.25" y="-25.5" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="DifferentialEvolution.Differential" target="DifferentialEvolution.Functions">
+      <point x="30.25" y="-25.5" />
+      <point x="172.0" y="230.0" />
+      <point x="504.2675" y="230.0" />
+      <point x="-94.0" y="102.5" />
+    </edge>
+    <edge source="DifferentialEvolution.Main" target="DifferentialEvolution.Server">
+      <point x="-42.25" y="-25.5" />
+      <point x="-42.25" y="36.5" />
+    </edge>
+    <edge source="DifferentialEvolution.Diagram" target="DifferentialEvolution.Functions">
+      <point x="0.0" y="-36.5" />
+      <point x="588.75" y="230.0" />
+      <point x="598.2674999999999" y="230.0" />
+      <point x="0.0" y="102.5" />
+    </edge>
+    <edge source="DifferentialEvolution.ClientHandler" target="DifferentialEvolution.Values">
+      <point x="40.33333333333334" y="-25.5" />
+      <point x="210.21750000000006" y="578.0" />
+      <point x="252.91666666666669" y="578.0" />
+      <point x="-61.33333333333334" y="146.5" />
+    </edge>
+    <edge source="DifferentialEvolution.Server" target="DifferentialEvolution.ClientHandler">
+      <point x="-42.25" y="-36.5" />
+      <point x="127.63416666666672" y="784.0" />
+      <point x="139.63416666666672" y="784.0" />
+      <point x="-30.25" y="25.5" />
+    </edge>
+    <edge source="DifferentialEvolution.Client" target="DifferentialEvolution.Values">
+      <point x="-47.19999999999999" y="-80.5" />
+      <point x="460.30000000000007" y="568.0" />
+      <point x="375.58333333333337" y="568.0" />
+      <point x="61.33333333333337" y="146.5" />
+    </edge>
+    <edge source="DifferentialEvolution.Client" target="DifferentialEvolution.Diagram">
+      <point x="0.0" y="-80.5" />
+      <point x="-81.25" y="36.5" />
+    </edge>
+    <edge source="DifferentialEvolution.Client" target="DifferentialEvolution.Functions">
+      <point x="94.39999999999998" y="-80.5" />
+      <point x="601.9" y="578.0" />
+      <point x="761.75" y="578.0" />
+      <point x="761.75" y="230.0" />
+      <point x="692.2674999999999" y="230.0" />
+      <point x="94.0" y="102.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="366.40476190476227" y="375.5" />
+  <SelectedNodes>
+    <node>DifferentialEvolution.StandardDeviation</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
